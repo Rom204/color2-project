@@ -1,0 +1,94 @@
+body, html{
+  height: 100%;
+  font-family: 'Comfortaa', cursive;
+}
+
+/*All general divs in page*/
+div{
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*All general link buttons*/
+a{
+  /*Coloring*/
+  border: solid coral;
+  color:coral;
+  background-color:rgb(255, 255, 255);  
+  
+  /*stylish*/
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  text-decoration: inherit;
+  
+  /*location*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.7s ease;
+}
+
+a:hover{
+  color: rgb(1, 15, 15);
+
+}
+
+
+.top-page{
+  background-image: url(/visual/images/world-picture.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+
+.top-text{
+  border: solid pink;
+  border-radius: 100%;
+  width: 450px;
+  height: 150px;
+  background-color: aliceblue;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-text h1{
+  font-size: 50px;
+}
+
+.parallax{
+  /* the background image */
+  background-image: url(/visual/images/world-picture.jpg);
+  height: 500px;
+}
+
+/*Start - div images*/
+.yellow-window{
+  background-image: url(/visual/images/banana-picture.jpg);
+}
+
+.orange-window{
+  background-image: url(/visual/images/orange-picture.jpg);
+}
+
+.pink-window{
+  background-image: url(/visual/images/apple-picture.jpg);
+}
+
+.silver-window{
+  background-image: url(/visual/images/silver_coins-picture.jpg);
+}
+
+.lightblue-window{
+  background-image: url(/visual/images/glass_water-picture.jpg);
+}
+/*End - div images*/
